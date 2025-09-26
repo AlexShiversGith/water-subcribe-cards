@@ -1,0 +1,72 @@
+.wrapper{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header{
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  padding: 10px;
+}
+
+.content{
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.card{
+  aspect-ratio: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-header{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+}
+
+.card-body{
+  aspect-ratio: 1 / 1.1;
+  display: flex;
+  align-items: center;
+}
+
+.card-content{
+  width: calc(100% - 60px);
+  margin: 0 auto;
+}
+
+.card-content-price{
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  line-height: 0;
+}
+
+.card-content-desc{
+  text-align: center;
+}
+
+.card-content-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.monthly{
+  flex: 3;
+}
+
+.yearly{
+  flex: 4;
+}
+
+.forever{
+  flex: 3;
+}
