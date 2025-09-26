@@ -59,14 +59,40 @@
   justify-content: center;
 }
 
+.btn{
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
 .monthly{
   flex: 3;
+  background-color: #80af43;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 .yearly{
   flex: 4;
+  background-color: #65bab6;
+  border-radius: 20px;
 }
 
 .forever{
   flex: 3;
+  background-color: #f7cc4d;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.monthly-header{
+  background-color: #6b9239;
+}
+
+.yearly-header{
+  background-color: #488380;
+}
+
+.forever-header{
+  background-color: #b1943d;
 }
