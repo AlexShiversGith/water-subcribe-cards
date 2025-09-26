@@ -96,3 +96,59 @@
 .forever-header{
   background-color: #b1943d;
 }
+
+
+@media (max-width: 836px) {
+
+.wrapper{
+  width: 100%;
+}
+
+.card{
+  aspect-ratio: unset;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.card-header{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-body{
+  aspect-ratio: 2 / 1;
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.monthly{
+  flex: 1;
+  border-radius: 20px;
+}
+
+.yearly{
+  flex: 1;
+  border-radius: 20px;
+}
+
+.forever{
+  flex: 1;
+  border-radius: 20px;
+}
+}
+
+@media (max-width: 420px) {
+.card{
+  width: 320px;
+}
+}
